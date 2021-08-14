@@ -19,7 +19,7 @@ import javax.persistence.Table;
     )
 })
 
-@Table(name = "tasklist")
+@Table(name = "tasks")
 public class Tasklist {
     @Id
     @Column(name = "id")
